@@ -12,11 +12,6 @@ fun main() {
 
     var user = User("ぽち", 1)
 
-    // let
-    val a = user.name.let {
-        it?.length
-    }
-    println(a)
 
     // run
     val size: Int = mutableListOf("red", "green", "blue").run {
@@ -36,6 +31,11 @@ fun main() {
         add(4)
     }
     println(list)
+
+
+
+
+
 
     // with
     val s = with("hoge") { this.length }
