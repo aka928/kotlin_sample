@@ -34,7 +34,6 @@ fun main() {
 
 
 
-
     // with
     val s = with("hoge") { this.length }
     println(s)
