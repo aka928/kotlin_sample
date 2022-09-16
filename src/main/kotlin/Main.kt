@@ -33,7 +33,7 @@ fun main() {
     println(list)
 
 
-
+    
     // with
     val s = with("hoge") { this.length }
     println(s)
