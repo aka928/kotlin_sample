@@ -33,11 +33,10 @@ fun main() {
     println(list)
 
 
-    
     // with
     val s = with("hoge") { this.length }
     println(s)
-
+    
     // object
     println(User.A.b)
     println(User.c)
